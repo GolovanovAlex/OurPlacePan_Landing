@@ -6,9 +6,38 @@
 @import 'base.scss';
 @import 'global.scss';
 // ---- ---- hero ---- ---- //
-
-// ---- ---- social ---- ---- //
-
+.header {
+  &__top {
+    background-color: $color_bg_light;
+    text-align: center;
+    padding: 10px 0;
+  }
+  &__top-text {
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: $color_t_accent;
+  }
+}
+// ---- ---- hero ---- ---- //
+.hero {
+  &__text {
+  }
+  &__title {
+  }
+  &__btn {
+  }
+}
+// ---- ---- quotes ---- ---- //
+.quotes {
+  &__text {
+  }
+  &__box {
+  }
+  &__img {
+  }
+}
 // ---- ---- branding ---- ---- //
 
 // ---- ---- custome ---- ---- //
@@ -21,16 +50,7 @@
 
 // ---- ---- media ---- ---- //
 @import 'media.scss';
-.main {
-}
-.container {
-}
-.header {
-  &__top {
-  }
-  &__top-text {
-  }
-}
+
 .nav {
 }
 .menu {
@@ -45,14 +65,6 @@
   &__card-box {
   }
 }
-.hero {
-  &__text {
-  }
-  &__title {
-  }
-  &__btn {
-  }
-}
 .title {
   &__h1 {
   }
@@ -63,14 +75,7 @@
 }
 .button {
 }
-.quotes {
-  &__text {
-  }
-  &__box {
-  }
-  &__img {
-  }
-}
+
 .welcome {
   &__text-title {
   }
