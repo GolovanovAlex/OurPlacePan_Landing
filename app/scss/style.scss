@@ -31,11 +31,22 @@
 }
 // ---- ---- quotes ---- ---- //
 .quotes {
+  background-color: $color_bg;
   &__text {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    color: $color_t_main;
+    padding-top: 42px;
+    margin-bottom: 40px;
   }
   &__box {
-  }
-  &__img {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 45px;
   }
 }
 // ---- ---- branding ---- ---- //
