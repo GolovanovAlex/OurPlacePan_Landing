@@ -187,11 +187,27 @@ body {
     line-height: 27px;
     color: $color_t_footer-copy;
     background-color: $color_bg_accent;
+    padding: 20px 0 26px;
   }
-  &__copy-text {
+  &__bottom-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
   }
   &__copy-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
   }
-  &__copy-link {
+  &__copy-link--help {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    background-color: $color_t_light;
+    border-radius: 5px;
+    padding: 1px 10px;
   }
 }
