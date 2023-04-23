@@ -22,12 +22,14 @@
 }
 // ---- ---- hero ---- ---- //
 .hero {
-  background-image: url(../images/bg/bg-hero.jpg);
-  background-position: bottom center;
+  background-position: center bottom;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 170px 0;
   min-height: calc(100vh - 130px - 130px);
+  &__wrap {
+    margin-left: 385px;
+  }
   &__text {
     max-width: 250px;
     font-size: 16px;
@@ -116,24 +118,43 @@
 }
 // ---- ---- follow ---- ---- //
 .follow {
+  background-color: $color_bg;
+  .container {
+    max-width: 100%;
+    padding: 0;
+  }
   &__box {
     display: flex;
-  }
-  &__img-box {
-  }
-  &__img-box--left {
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
   }
   &__img {
+    display: block;
   }
   &__text-box {
+    max-width: 450px;
+    text-align: center;
   }
   &__hashtag {
+    font-size: 11px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 33px;
   }
   &__text {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 1px;
+    margin-bottom: 61px;
   }
   &__button {
-  }
-  &__img-box--right {
+    line-height: 12px;
+    letter-spacing: 0.5px;
+    color: $color_t_dark;
+    background-color: $color_white;
   }
 }
 // ---- ---- media ---- ---- //
