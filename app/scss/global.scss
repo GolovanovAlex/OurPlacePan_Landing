@@ -12,6 +12,7 @@ $color_bg_light: #f0eedd;
 $color_bg: #f5f1e9;
 $color_bg_dark: #6c674d;
 $color_bg_accent: #807c62;
+$color_bg_button: #d37657;
 // ---- ---- main ---- ---- //
 html {
   width: 100%;
@@ -33,27 +34,29 @@ body {
 }
 .container {
   max-width: 1085px;
+  max-width: 1460px;
   padding: 0 10px;
   margin: 0 auto;
 }
 // ---- ---- Title ---- ---- //
-// .title {
-//   &__h1 {
-//     font-size: 64px;
-//     font-weight: 700;
-//     line-height: 1;
-//   }
-//   &__h4 {
-//     font-size: 48px;
-//     font-weight: 700;
-//     line-height: 1;
-//   }
-//   &__h5 {
-//     font-size: 18px;
-//     font-weight: 700;
-//     line-height: 28px;
-//   }
-// }
+.title {
+  &__h1 {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: 1px;
+  }
+  //   &__h4 {
+  //     font-size: 48px;
+  //     font-weight: 700;
+  //     line-height: 1;
+  //   }
+  //   &__h5 {
+  //     font-size: 18px;
+  //     font-weight: 700;
+  //     line-height: 28px;
+  //   }
+}
 
 // ---- ---- menu ---- ---- //
 .nav {
@@ -79,7 +82,8 @@ body {
     }
   }
   &__logo-link {
-    display: flex;
+    display: block;
+    margin-right: 30px;
   }
 }
 // .menu__btn {
@@ -114,18 +118,20 @@ body {
 //   transform: translateY(0);
 // }
 // ---- ---- btn ---- ---- //
-// .button {
-//   font-weight: 600;
-//   line-height: 28px;
-//   text-transform: uppercase;
-//   color: $color_light;
-//   background-color: $color_accent;
-//   border-radius: 8px;
-//   padding: 10px 31px;
-//   &:hover {
-//     text-decoration: underline;
-//   }
-// }
+.button {
+  width: 100%;
+  max-width: 248px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: $color_white;
+  background-color: $color_bg_button;
+  padding: 20px 30px;
+  &:hover {
+    text-decoration: underline;
+  }
+}
 // ---- ---- footer ---- ---- //
 .footer {
   padding-top: 80px;
