@@ -38,7 +38,6 @@
     line-height: 24px;
     text-transform: uppercase;
     text-align: center;
-    color: $color_t_main;
     padding-top: 42px;
     margin-bottom: 40px;
   }
@@ -49,8 +48,13 @@
     padding-bottom: 45px;
   }
 }
-// ---- ---- branding ---- ---- //
-
+// ---- ---- welcome ---- ---- //
+.welcome {
+  &__text-title {
+  }
+  &__text {
+  }
+}
 // ---- ---- custome ---- ---- //
 
 // ---- ---- client ---- ---- //
@@ -62,37 +66,6 @@
 // ---- ---- media ---- ---- //
 @import 'media.scss';
 
-.nav {
-}
-.menu {
-  &__item {
-  }
-  &__link {
-  }
-  &__logo-link {
-  }
-  &__logo {
-  }
-  &__card-box {
-  }
-}
-.title {
-  &__h1 {
-  }
-  &__h4 {
-  }
-  &__h5 {
-  }
-}
-.button {
-}
-
-.welcome {
-  &__text-title {
-  }
-  &__text {
-  }
-}
 .designed {
   &__text {
   }

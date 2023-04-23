@@ -26,8 +26,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 400;
-  // color: $color_t_dark;
-  // background-color: $color_light;
+  color: $color_t_main;
   img {
     // width: 100%;
   }
@@ -44,7 +43,7 @@ body {
 //     font-weight: 700;
 //     line-height: 1;
 //   }
-//   &__h3 {
+//   &__h4 {
 //     font-size: 48px;
 //     font-weight: 700;
 //     line-height: 1;
@@ -55,16 +54,34 @@ body {
 //     line-height: 28px;
 //   }
 // }
-.title {
-  &__h1 {
+
+// ---- ---- menu ---- ---- //
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 48px;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+
+  &__item {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    &:hover {
+      text-decoration: underline;
+    }
   }
-  &__h4 {
-  }
-  &__h5 {
+  &__logo-link {
+    display: flex;
   }
 }
-// ---- ---- menu ---- ---- //
-
 // .menu__btn {
 //   position: relative;
 //   display: none;
