@@ -89,7 +89,14 @@
 }
 // ---- ---- designed ---- ---- //
 .designed {
+  padding-top: 75px;
+  background-color: $color_bg_slider;
   &__text {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 127px;
   }
   &__colors {
   }
