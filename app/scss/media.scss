@@ -11,6 +11,9 @@
   .hero__wrap {
     margin-left: 20px;
   }
+  .swiper-slide img {
+    width: 100%;
+  }
 }
 @media (max-width: 700px) {
   .nav {
@@ -27,5 +30,25 @@
   .quotes__box {
     flex-direction: column;
     gap: 20px;
+  }
+  .welcome__wrap {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 450px) {
+  .designed__text {
+    font-size: 28px;
+  }
+  .swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+  }
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    border: 2px solid #e09d81;
+  }
+  .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 5px);
   }
 }
