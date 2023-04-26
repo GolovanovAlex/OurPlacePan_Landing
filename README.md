@@ -15,7 +15,7 @@
 
 ## Info
 
-![Gifweb](readme/gifweb.gif)
+![Gifweb](readme/gifweb.webp)
 
 Источник макета Telegram-канал [FIGMA | Макеты для верстки](https://t.me/+oXZSKMmXp6UyOGI6)
 
