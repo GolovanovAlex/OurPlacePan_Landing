@@ -75,11 +75,26 @@
     flex-direction: column;
     gap: 20px;
   }
+  .welcome {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
   .welcome__wrap {
     flex-direction: column;
     gap: 40px;
   }
+  .designed {
+    padding-top: 60px;
+  }
+  .designed__text {
+    margin-bottom: 20px;
+  }
+  .designed__swiper {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
   .shop {
+    padding-top: 60px;
     &__box {
       grid-template-columns: repeat(1, 1fr);
       padding: 0 10px 60px;
@@ -109,11 +124,17 @@
   .follow__img-box--right {
     display: flex;
   }
+  .footer {
+    padding-top: 60px;
+  }
   .footer__top {
     flex-direction: column;
   }
   .footer__form {
     margin-bottom: 40px;
+  }
+  .footer__links-box {
+    margin-bottom: 60px;
   }
 }
 
