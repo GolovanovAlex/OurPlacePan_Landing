@@ -29,9 +29,6 @@ body {
   font-size: 14px;
   font-weight: 400;
   color: $color_t_main;
-  img {
-    // width: 100%;
-  }
 }
 .container {
   max-width: 1460px;
@@ -46,18 +43,7 @@ body {
     line-height: 72px;
     letter-spacing: 1px;
   }
-  //   &__h4 {
-  //     font-size: 48px;
-  //     font-weight: 700;
-  //     line-height: 1;
-  //   }
-  //   &__h5 {
-  //     font-size: 18px;
-  //     font-weight: 700;
-  //     line-height: 28px;
-  //   }
 }
-
 // ---- ---- menu ---- ---- //
 .nav {
   display: flex;
@@ -109,8 +95,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-  }
-  &__contact-box {
   }
   &__contact-title {
     display: flex;

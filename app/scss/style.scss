@@ -20,6 +20,9 @@
     text-transform: uppercase;
     color: $color_t_accent;
   }
+  &__bottom {
+    background-color: $color_t_light;
+  }
 }
 // ---- ---- hero ---- ---- //
 .hero {
